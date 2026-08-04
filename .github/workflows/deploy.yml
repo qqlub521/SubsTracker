@@ -1,8 +1,7 @@
 name: Deploy
 
-# 在文件顶层添加 env 配置
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
 on:
   push:
